@@ -1,69 +1,20 @@
-Html Webpack Plugin:
-<pre>
-  Error: Child compilation failed:
-  Module not found: Error: Can't resolve 'E:\Mega\Software Development\Microverse\webpack-exercise\app\index.html' in   'E:\Mega\Software Development\Microverse\webpack-exercise'
-  ModuleNotFoundError: Module not found: Error: Can't resolve 'E:\Mega\Software Development\Microverse\webpack-exerci  se\app\index.html' in 'E:\Mega\Software Development\Microverse\webpack-exercise'
-      at E:\Mega\Software Development\Microverse\webpack-exercise\node_modules\webpack\lib\Compilation.js:2016:28
-      at E:\Mega\Software Development\Microverse\webpack-exercise\node_modules\webpack\lib\NormalModuleFactory.js:798  :13
-      at eval (eval at create (E:\Mega\Software Development\Microverse\webpack-exercise\node_modules\tapable\lib\Hook  CodeFactory.js:33:10), <anonymous>:10:1)
-      at E:\Mega\Software Development\Microverse\webpack-exercise\node_modules\webpack\lib\NormalModuleFactory.js:270  :22
-      at eval (eval at create (E:\Mega\Software Development\Microverse\webpack-exercise\node_modules\tapable\lib\Hook  CodeFactory.js:33:10), <anonymous>:9:1)
-      at E:\Mega\Software Development\Microverse\webpack-exercise\node_modules\webpack\lib\NormalModuleFactory.js:434  :22
-      at E:\Mega\Software Development\Microverse\webpack-exercise\node_modules\webpack\lib\NormalModuleFactory.js:116  :11
-      at E:\Mega\Software Development\Microverse\webpack-exercise\node_modules\webpack\lib\NormalModuleFactory.js:670  :25
-      at E:\Mega\Software Development\Microverse\webpack-exercise\node_modules\webpack\lib\NormalModuleFactory.js:855  :8
-      at E:\Mega\Software Development\Microverse\webpack-exercise\node_modules\webpack\lib\NormalModuleFactory.js:975  :5
-  
-  - Compilation.js:2016 
-    [webpack-exercise]/[webpack]/lib/Compilation.js:2016:28
-  
-  - NormalModuleFactory.js:798 
-    [webpack-exercise]/[webpack]/lib/NormalModuleFactory.js:798:13
-  
-  
-  - NormalModuleFactory.js:270 
-    [webpack-exercise]/[webpack]/lib/NormalModuleFactory.js:270:22
-  
-  
-  - NormalModuleFactory.js:434 
-    [webpack-exercise]/[webpack]/lib/NormalModuleFactory.js:434:22
-  
-  - NormalModuleFactory.js:116 
-    [webpack-exercise]/[webpack]/lib/NormalModuleFactory.js:116:11
-  
-  - NormalModuleFactory.js:670 
-    [webpack-exercise]/[webpack]/lib/NormalModuleFactory.js:670:25
-  
-  - NormalModuleFactory.js:855 
-    [webpack-exercise]/[webpack]/lib/NormalModuleFactory.js:855:8
-  
-  - NormalModuleFactory.js:975 
-    [webpack-exercise]/[webpack]/lib/NormalModuleFactory.js:975:5
-  
-  - child-compiler.js:169 
-    [webpack-exercise]/[html-webpack-plugin]/lib/child-compiler.js:169:18
-  
-  - Compiler.js:551 finalCallback
-    [webpack-exercise]/[webpack]/lib/Compiler.js:551:5
-  
-  - Compiler.js:577 
-    [webpack-exercise]/[webpack]/lib/Compiler.js:577:11
-  
-  - Compiler.js:1196 
-    [webpack-exercise]/[webpack]/lib/Compiler.js:1196:17
-  
-  
-  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
-    [webpack-exercise]/[tapable]/lib/Hook.js:18:14
-  
-  - Compiler.js:1192 
-    [webpack-exercise]/[webpack]/lib/Compiler.js:1192:33
-  
-  - Compilation.js:2787 finalCallback
-    [webpack-exercise]/[webpack]/lib/Compilation.js:2787:11
-  
-  - Compilation.js:3092 
-    [webpack-exercise]/[webpack]/lib/Compilation.js:3092:11
-  
-  
-</pre><script defer src="runtime.js"></script><script defer src="main.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wbpack Exercise</title>
+  <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
+  <body>
+    <div id="to-do-list-container">
+      <p>Today's To Do</p>
+      <form id="input-form">
+        <input name="add-item" id="add-item" placeholder="Add to your list..." type="text">
+        <input id="submit-new-item" class="" type="submit" tabindex="-1" value="" title="click this or press enter to submit">
+      </form>
+      <ul id="to-do-list">
+      </ul>
+      <a href="" id="clear"> Clear All Completed</a>
+    </div>
+  </body>
+</html>
