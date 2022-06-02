@@ -18,13 +18,12 @@ class addTo_toDoList{
 const toDoListItemMarkup = (description, completed=false, index) => {
   const li = document.createElement("li");
   const listItem = `
-  <li>
+ 
   <input type="checkbox" name="${completed}" id="check${index}">
   <p id="description${index}">
   ${description}
   </p>
   <i class="fa-solid fa-ellipsis-vertical"></i>
-  </li>
   `;
   li.innerHTML = listItem;
   return li;

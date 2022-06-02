@@ -21,10 +21,12 @@ ul {
 }
 
 ul li {
-  border-bottom: 1px solid grey;
+  border-bottom: 3px solid #f6f6f6;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
 }
 
 p {
@@ -67,7 +69,7 @@ form {
   right: 0;
   top: 0;
   z-index: 0;
-  background-image: url("https://web.archive.org/web/20180320194056/http://www.getminimalist.com:80/web/20180718035058im_/http://www.getminimalist.com/assets/enter-b06ec7fb441bc0e40d61ba975a0291ad.png");
+  background-image: url("./Images/enter.png");
   background-repeat: no-repeat;
   background-position: center;
   width: 40px;
